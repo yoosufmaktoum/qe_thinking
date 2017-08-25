@@ -12,7 +12,7 @@ describe('Test Course Route', function () {
         chai.request(server)
             .get('/courses/1')
             .end(function (err, res) {
-                res.body.length.should.be.eql(1);
+                res.body.length.should.be.eql(4);
                 done();
             });
     });
