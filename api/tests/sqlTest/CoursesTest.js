@@ -9,7 +9,7 @@ describe('Courses', function () {
     describe('Get course by id', function () {
        // this.timeout(15000);
 
-        it('test get course by id', function (done) {
+        it('test get course by id returns the one course object', function (done) {
           courses.getCourseById('1', function (err, rows) {
               assert.equal(rows.length, 1);
               done();
