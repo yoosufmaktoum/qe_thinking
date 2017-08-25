@@ -1,6 +1,6 @@
 var chai = require('chai');
 var chaiHttp = require('chai-http');
-var server = require('/Users/yoosufm/wp/qe_thinking/server');
+var server = require('../../../server');
 //var server = 'http://localhost:3000';
 
 var should = chai.should();
