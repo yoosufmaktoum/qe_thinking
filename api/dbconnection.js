@@ -1,9 +1,9 @@
 var mysql= require('mysql');
 var connection = mysql.createPool({
 
-    host:'qa-jenkins.leapset.com',
-    user:'ctaf',
-    password:'gvt123',
+    host:'18.220.242.150',
+    user:'dev_user',
+    password:'password',
     database:'qe_thinking'
 
 });
