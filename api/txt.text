@@ -1,0 +1,17 @@
+Agile QE"Error: getaddrinfo ENOTFOUND qe-jenkins.leapset.com qe-jenkins.leapset.com:3306\n
+at errnoException (dns.js:28:10)\n
+at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:73:26)\n    --------------------\n
+at Protocol._enqueue (/Users/yoosufm/wp/qe_thinking/node_modules/mysql/lib/protocol/Protocol.js:145:48)\n
+at Protocol.handshake (/Users/yoosufm/wp/qe_thinking/node_modules/mysql/lib/protocol/Protocol.js:52:23)\n
+at PoolConnection.connect (/Users/yoosufm/wp/qe_thinking/node_modules/mysql/lib/Connection.js:130:18)\n
+at Pool.getConnection (/Users/yoosufm/wp/qe_thinking/node_modules/mysql/lib/Pool.js:48:16)\n
+ at Pool.query (/Users/yoosufm/wp/qe_thinking/node_modules/mysql/lib/Pool.js:202:8)\n
+ at Object.getCourseById (/Users/yoosufm/wp/qe_thinking/api/models/courseModel.js:11:27)\n
+ at Context.<anonymous> (/Users/yoosufm/wp/qe_thinking/api/tests/CoursesTest.js:8:19)\n
+ at callFnAsync (/Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runnable.js:371:21)\n
+ at Test.Runnable.run (/Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runnable.js:318:7)\n
+ at Runner.runTest (/Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runner.js:443:10)\n
+ at /Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runner.js:549:12\n    at next (/Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runner.js:361:14)\n
+   at /Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runner.js:371:7\n    at next (/Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runner.js:295:14)\n
+    at Immediate.<anonymous> (/Users/yoosufm/wp/qe_thinking/node_modules/mocha/lib/runner.js:339:5)\n    at runCallback (timers.js:672:20)\n    at tryOnImmediate (timers.js:645:5)\n
+     at processImmediate [as _immediateCallback] (timers.js:617:5)"
